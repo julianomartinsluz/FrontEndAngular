@@ -1,0 +1,49 @@
+/* You can add global styles to this file, and also import other style files */
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.red {
+    color: #e35e6b;
+}
+
+.blue {
+
+    color: blue;
+}
+
+.yellow {
+    color: yellow;
+}
+
+.gray{
+    color: rgb(73, 73, 73);
+}
+.gren{
+    color: rgb(33, 184, 28);
+}
+.orage{
+    color: rgb(255, 152, 17);
+}
+
+
+.v-middle {
+    vertical-align: middle;
+}
+
+.msg-success {
+    background-color: #60fc6d;
+    color: #fff;
+}
+
+.msg-error {
+    background-color: #e35e6b;
+    color: rgb(255, 255, 255);
+}

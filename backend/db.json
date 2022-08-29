@@ -1,0 +1,96 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Notebook Mac Pro",
+      "price": 12000.89
+    },
+    {
+      "id": 2,
+      "name": "Sansung S20+ Ultra",
+      "price": "7520.89"
+    },
+    {
+      "name": "Lapis amarelo",
+      "price": "2.50",
+      "id": 3
+    },
+    {
+      "name": "Teste",
+      "price": "4324",
+      "id": 4
+    },
+    {
+      "name": "eqe",
+      "price": "31231",
+      "id": 5
+    },
+    {
+      "name": "eeqweqw",
+      "price": "312312",
+      "id": 6
+    },
+    {
+      "name": "3123213",
+      "price": "21321312312",
+      "id": 7
+    },
+    {
+      "name": "tezte",
+      "price": "564",
+      "id": 8
+    }
+  ],
+  "clientes": [
+    {
+      "name": "Juliano",
+      "idade": 21,
+      "id": 1
+    },
+    {
+      "name": "Artur",
+      "idade": 22,
+      "id": 2
+    },
+    {
+      "name": "Gepeto",
+      "idade": 45,
+      "id": 3
+    },
+    {
+      "name": "Chica",
+      "idade": 58,
+      "id": 4
+    },
+    {
+      "name": "Antoim",
+      "idade": 78,
+      "id": 5
+    },
+    {
+      "name": "jujulokim",
+      "idade": "22",
+      "id": 6
+    },
+    {
+      "name": "gabriela",
+      "idade": "23",
+      "id": 7
+    },
+    {
+      "name": "tunicao das polpas",
+      "idade": "45",
+      "id": 8
+    },
+    {
+      "name": "rwe",
+      "idade": "32",
+      "id": 9
+    },
+    {
+      "name": "teste",
+      "idade": "45",
+      "id": 10
+    }
+  ]
+}
