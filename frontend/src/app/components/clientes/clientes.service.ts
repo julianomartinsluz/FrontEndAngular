@@ -31,4 +31,16 @@ export class ClientesService {
   read(): Observable<Clientes[]>{
 return this.http.get<Clientes[]>(this.baseUrl)
   }
+
+  readById(id: string): Observable<Clientes>{
+    const url = `${this.baseUrl}/${id}`
+    return this.http.get<Clientes>(url)
+
+  }
+
+  update(clientes: Clientes): Observable<Clientes>{
+    const url = `${this.baseUrl}/${clientes.id}`
+    return this.http.put<Clientes>(url, clientes)
+  }
 }
+

@@ -38,6 +38,7 @@ import { ProductDeleteComponent } from './components/product/product-delete/prod
 import { ClientesCrudComponent } from './views/clientes-crud/clientes-crud.component';
 import { ClientesCreateComponent } from './components/clientes/clientes-create/clientes-create.component';
 import { ClientesReadComponent } from './components/clientes/clientes-read/clientes-read.component';
+import { ClientesUpdateComponent } from './components/clientes/clientes-update/clientes-update.component';
 
 registerLocaleData(localePt);
 
@@ -59,6 +60,7 @@ registerLocaleData(localePt);
     ClientesCrudComponent,
     ClientesCreateComponent,
     ClientesReadComponent,
+    ClientesUpdateComponent,
   ],
   imports: [
     BrowserModule,

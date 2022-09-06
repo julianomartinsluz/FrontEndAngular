@@ -10,14 +10,13 @@ import { Component, OnInit } from '@angular/core';
 export class ClientesReadComponent implements OnInit {
 
   clientes: Clientes[]
+  displayedColumns = ['id', 'name', 'idade','action']
 
   constructor(private clientesService: ClientesService) { }
 
   ngOnInit(): void {
-
    this.clientesService.read().subscribe(clientes => {
     this.clientes = clientes
-    console.log(clientes)
    })
     
   }
