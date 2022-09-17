@@ -16,7 +16,7 @@ export class ClientesUpdateComponent implements OnInit {
   constructor(private ClientesService: ClientesService, private Router: Router, private route: ActivatedRoute) { }
 
   ngOnInit(): void {
-    const id = this.route.snapshot.paramMap.get('id')
+    const id = +this.route.snapshot.paramMap.get('id')
     this.ClientesService.readById(id).subscribe(clientes => {
       this.clientes = clientes
     });

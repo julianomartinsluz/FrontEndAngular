@@ -1,21 +1,21 @@
 <mat-card>
-    <mat-card-title>Novo Cliente</mat-card-title>
+    <mat-card-title>Excluir clientes</mat-card-title>
     <form>
         <mat-form-field>
             <input matInput placeholder="Nome" 
-            [(ngModel)]="Clientes.name" name="name">
+            [value]="clientes.name" name="name" disabled>
 
         </mat-form-field>
 
         <mat-form-field>
             <input matInput placeholder="Idade" 
-            [(ngModel)]="Clientes.idade" name="idade">
+            [value]="clientes.idade" name="idade" disabled>
 
         </mat-form-field>
     </form>
 
-    <button mat-raised-button (click)="createClientes()" class="criar">
-        Salvar
+    <button mat-raised-button (click)="deleteClientes()" color="warn" >
+       Excluir
     </button>
 
     <button mat-raised-button (click)="cancelar()" color="primary">

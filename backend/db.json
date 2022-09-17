@@ -24,21 +24,6 @@
       "name": "eqe",
       "price": "31231",
       "id": 5
-    },
-    {
-      "name": "eeqweqw",
-      "price": "312312",
-      "id": 6
-    },
-    {
-      "name": "3123213",
-      "price": "21321312312",
-      "id": 7
-    },
-    {
-      "name": "tezte",
-      "price": "564",
-      "id": 8
     }
   ],
   "clientes": [
@@ -58,44 +43,9 @@
       "id": 3
     },
     {
-      "name": "Chica",
-      "idade": 58,
+      "name": "qwe",
+      "idade": "12",
       "id": 4
-    },
-    {
-      "name": "Antoim",
-      "idade": 78,
-      "id": 5
-    },
-    {
-      "name": "jujulokim",
-      "idade": "22",
-      "id": 6
-    },
-    {
-      "name": "gabriela",
-      "idade": "23",
-      "id": 7
-    },
-    {
-      "name": "tunicao das polpas",
-      "idade": "45",
-      "id": 8
-    },
-    {
-      "name": "rwe",
-      "idade": "32",
-      "id": 9
-    },
-    {
-      "name": "teste",
-      "idade": "45",
-      "id": 10
-    },
-    {
-      "name": "rwer",
-      "idade": "312",
-      "id": 11
     }
   ]
 }

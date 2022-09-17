@@ -39,6 +39,7 @@ import { ClientesCrudComponent } from './views/clientes-crud/clientes-crud.compo
 import { ClientesCreateComponent } from './components/clientes/clientes-create/clientes-create.component';
 import { ClientesReadComponent } from './components/clientes/clientes-read/clientes-read.component';
 import { ClientesUpdateComponent } from './components/clientes/clientes-update/clientes-update.component';
+import { ClientesDeleteComponent } from './components/clientes/clientes-delete/clientes-delete.component';
 
 registerLocaleData(localePt);
 
@@ -61,6 +62,7 @@ registerLocaleData(localePt);
     ClientesCreateComponent,
     ClientesReadComponent,
     ClientesUpdateComponent,
+    ClientesDeleteComponent,
   ],
   imports: [
     BrowserModule,

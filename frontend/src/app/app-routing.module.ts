@@ -1,6 +1,4 @@
-import { ClientesUpdateComponent } from './components/clientes/clientes-update/clientes-update.component';
-import { ProductDeleteComponent } from './components/product/product-delete/product-delete.component';
-import { ProductUpdateComponent } from './components/product/product-update/product-update.component';
+
 import { NgModule } from "@angular/core";
 import { Routes, RouterModule } from "@angular/router";
 
@@ -9,7 +7,10 @@ import { ProductCrudComponent } from "./views/product-crud/product-crud.componen
 import { ClientesCrudComponent } from "./views/clientes-crud/clientes-crud.component";
 import { ProductCreateComponent } from './components/product/product-create/product-create.component';
 import { ClientesCreateComponent } from './components/clientes/clientes-create/clientes-create.component';
-
+import { ClientesDeleteComponent } from './components/clientes/clientes-delete/clientes-delete.component';
+import { ClientesUpdateComponent } from './components/clientes/clientes-update/clientes-update.component';
+import { ProductDeleteComponent } from './components/product/product-delete/product-delete.component';
+import { ProductUpdateComponent } from './components/product/product-update/product-update.component';
 
 
 const routes: Routes = [
@@ -44,6 +45,10 @@ const routes: Routes = [
   {
     path: "clientes/update/:id",
     component: ClientesUpdateComponent
+  },
+  {
+    path: "clientes/delete/:id",
+    component: ClientesDeleteComponent
   }
   
   
