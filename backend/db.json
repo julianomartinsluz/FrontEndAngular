@@ -19,11 +19,6 @@
       "name": "Teste",
       "price": "4324",
       "id": 4
-    },
-    {
-      "name": "eqe",
-      "price": "31231",
-      "id": 5
     }
   ],
   "clientes": [
@@ -44,7 +39,7 @@
     },
     {
       "name": "qwe",
-      "idade": "12",
+      "idade": "128",
       "id": 4
     }
   ]

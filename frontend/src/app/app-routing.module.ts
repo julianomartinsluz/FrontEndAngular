@@ -1,3 +1,4 @@
+import { LoginComponent } from './views/login/login.component';
 
 import { NgModule } from "@angular/core";
 import { Routes, RouterModule } from "@angular/router";
@@ -49,6 +50,10 @@ const routes: Routes = [
   {
     path: "clientes/delete/:id",
     component: ClientesDeleteComponent
+  },
+  {
+  path: "login",
+  component: LoginComponent
   }
   
   

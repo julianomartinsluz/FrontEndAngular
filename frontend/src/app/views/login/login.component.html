@@ -1,0 +1,14 @@
+<h5><u><i>Login realizado com angular</i></u></h5>
+<form class="example-form">
+    <mat-form-field class="example-full-width" appearance="fill">
+        <mat-label>Usuário</mat-label>
+        <input matInput placeholder="Informe seu usuário" name="usename" [(ngModel)]="username">
+    </mat-form-field>
+    <mat-form-field class="example-full-width" appearance="fill">
+        <mat-label>Senha</mat-label>
+        <input matInput placeholder="Entre com sua senha" value="" name="password" type="password"
+            [(ngModel)]="password">
+    </mat-form-field>
+    <button mat-raised-button color="primary" (click)="submit()">Entrar</button>
+    <span *ngIf="show"> <button mat-button class="bt2">Login realizado com sucesso !!</button></span>
+</form>

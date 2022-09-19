@@ -40,6 +40,7 @@ import { ClientesCreateComponent } from './components/clientes/clientes-create/c
 import { ClientesReadComponent } from './components/clientes/clientes-read/clientes-read.component';
 import { ClientesUpdateComponent } from './components/clientes/clientes-update/clientes-update.component';
 import { ClientesDeleteComponent } from './components/clientes/clientes-delete/clientes-delete.component';
+import { LoginComponent } from './views/login/login.component';
 
 registerLocaleData(localePt);
 
@@ -63,6 +64,7 @@ registerLocaleData(localePt);
     ClientesReadComponent,
     ClientesUpdateComponent,
     ClientesDeleteComponent,
+    LoginComponent,
   ],
   imports: [
     BrowserModule,
