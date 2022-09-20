@@ -10,5 +10,5 @@
             [(ngModel)]="password">
     </mat-form-field>
     <button mat-raised-button color="primary" (click)="submit()">Entrar</button>
-    <span *ngIf="show"> <button mat-button class="bt2">Login realizado com sucesso !!</button></span>
+    <span *ngIf="show"> <button mat-button class="bt2" routerLink="/clientes">Login realizado com sucesso !!</button></span>
 </form>
