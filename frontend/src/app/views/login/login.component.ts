@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
+import { HeaderService } from 'src/app/components/template/header/header.service';
 
 @Component({
   selector: 'app-login',
@@ -22,7 +24,13 @@ export class LoginComponent implements OnInit {
     this.password="";
     this.show = true;
   }
-  constructor() { }
+  constructor(private router: Router, private headerService: HeaderService) {
+    headerService.headerData = {
+      title: 'Login',
+      icon: 'login',
+      routeUrl: '/login'
+    }
+   }
 
   ngOnInit(): void {
   }
