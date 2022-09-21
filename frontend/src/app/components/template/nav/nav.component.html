@@ -1,31 +1,45 @@
 <mat-sidenav-container class="container">
-    <mat-sidenav class="sidenav" mode="side" opened 
-        fixedInViewport="true" fixedTopGap="64">
+    <mat-sidenav class="sidenav" mode="side" opened fixedInViewport="true" fixedTopGap="64">
         <mat-nav-list class="nav-list">
-            <a mat-list-item routerLink="/">
+            <a mat-list-item routerLink="/" title="Página Inicial">
                 <i class="material-icons">
                     bungalow
                 </i>
                 Início
             </a>
-            <a mat-list-item  routerLink="/clientes">
+            <a mat-list-item routerLink="/clientes" title="Clientes">
                 <i class="material-icons">
-                   person
+                    person
                 </i>
                 Clientes
             </a>
-            <a mat-list-item  routerLink="/products">
+            <a mat-list-item routerLink="/products" title="Produtos">
                 <i class="material-icons">
                     storefront
                 </i>
                 Produtos
             </a>
-            <a mat-list-item  routerLink="/login">
+            <a mat-list-item routerLink="/login" title="Login">
                 <i class="material-icons">
                     login
                 </i>
                 Login
             </a>
+
+            <a mat-list-item href="https://www.instagram.com/ju_oluz/" title="Me siga no Instagram">
+                <i class=" fa-2x fab fa-instagram"></i>
+            </a>
+            <a mat-list-item href="https://web.whatsapp.com/send?phone=55017997225995%20target=_blank" title="Me chame no Whatsapp">
+                <i class=" fa-1x fab fa-whatsapp"></i>
+            </a>
+            <a mat-list-item href="https://www.facebook.com/juliano.martins.58958" title="Me adicione no Facebook">
+                <i class=" fa-1x fab fa-facebook"></i>
+            </a>
+            <a mat-list-item href="https://www.linkedin.com/in/juliano-martins-942a3a163/" title="Me adicione no Linkedin">
+                <i class="fab fa-linkedin"></i>
+            </a>
+
+
         </mat-nav-list>
     </mat-sidenav>
     <mat-sidenav-content class="content">
